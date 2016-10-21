@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BBSDAO.Interface
 {
-    public interface IBbsContentDAO
+    public interface IBBSPostDAO
     {
     }
 }

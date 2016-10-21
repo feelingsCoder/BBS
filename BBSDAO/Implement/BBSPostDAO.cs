@@ -6,7 +6,8 @@ using BBSDAO.Interface;
 
 namespace BBSDAO.Implement
 {
-    public class BbsContentDAO:IBbsContentDAO
+    public class BBSPostDAO : IBBSPostDAO
     {
+        
     }
 }
