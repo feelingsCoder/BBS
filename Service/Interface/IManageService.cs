@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BBS.Emtity;
 
-namespace BBS.DAO.Interface
+namespace Service.Interface
 {
-    public interface IUserDAO : IBaseDAO<User>
+    public interface IManageService
     {
     }
 }

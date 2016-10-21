@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BBS_1_
+namespace Service.Interface
 {
-    class Program
+    public interface IBBSPostService
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }

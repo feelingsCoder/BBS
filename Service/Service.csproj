@@ -40,8 +40,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implement\UserService.cs" />
+    <Compile Include="Interface\IBBSPostService.cs" />
+    <Compile Include="Interface\IBoardService.cs" />
+    <Compile Include="Interface\IManageService.cs" />
+    <Compile Include="Interface\IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BBSDAO\BBSDAO.csproj">
+      <Project>{99c8ba52-ac8b-4460-b7c6-9f567e1b58d7}</Project>
+      <Name>BBSDAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{ea39a457-af27-4fc7-92f2-1464ee63af6c}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
