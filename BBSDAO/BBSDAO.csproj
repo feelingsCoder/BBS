@@ -40,12 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interface\UserDAO.cs" />
+    <Compile Include="Implement\BbsContentDAO.cs" />
+    <Compile Include="Implement\BoardDAO.cs" />
+    <Compile Include="Implement\ManageDAO.cs" />
+    <Compile Include="Implement\UserDAO.cs" />
+    <Compile Include="Interface\IBbsContentDAO.cs" />
+    <Compile Include="Interface\IBoardDAO.cs" />
+    <Compile Include="Interface\IManageDAO.cs" />
+    <Compile Include="Interface\IUserDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Implement\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

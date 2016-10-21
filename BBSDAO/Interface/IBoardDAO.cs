@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace BBSDAO.Interface
 {
-    interface UserDAO
+    public interface IBoardDAO
     {
-        List<string> QueryById();
     }
 }
