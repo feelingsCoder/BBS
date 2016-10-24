@@ -7,7 +7,7 @@ using BBS.Emtity;
 
 namespace BBS.DAO.Interface
 {
-    public interface IBoardDAO: IBaseDAO<Board>
+    public interface IBoardDAO: IDAO<Board>
     {
     }
 }

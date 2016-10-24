@@ -48,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="BaseDAO.docx" />
+    <None Include="BaseDAO.pdf" />
     <None Include="BBS开发日志.docx" />
   </ItemGroup>
   <ItemGroup>

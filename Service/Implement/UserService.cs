@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using BBS.Emtity;
 using BBS.Service.Interface;
 using BBS.DAO.Interface;
@@ -15,6 +11,7 @@ namespace BBS.Service.Implement
         public bool AddUser(User user)
         {
             IUserDAO dao = new UserDAO();
+            
             return dao.Add(user);
         }
 
@@ -22,6 +19,7 @@ namespace BBS.Service.Implement
         {
             IUserDAO dao = new UserDAO();
             List<User> list = dao.Query(new User() { UserId = id });
+
             return list == null ? null : list[0];
         }
 

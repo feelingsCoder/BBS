@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
 using System.Reflection;
 using System.Text;
-using System.Web;
 
 namespace BBS.DAO
 {
-    public abstract class BaseDAO<T> : IBaseDAO<T>
+    public abstract class BaseDAO<T> : IBaseDAO<T>, IDAO<T>
     {
         private string connectionString = ConfigurationManager.ConnectionStrings["BBS"].ConnectionString;
         private SqlConnection connection = null;

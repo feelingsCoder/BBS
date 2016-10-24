@@ -7,7 +7,7 @@ using BBS.Emtity;
 
 namespace BBS.DAO.Interface  
 {
-    public interface IManageDAO : IBaseDAO<Manage>
+    public interface IManageDAO : IDAO<Manage>
     {
     }
 }
