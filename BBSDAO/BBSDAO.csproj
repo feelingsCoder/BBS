@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDAO.cs" />
-    <Compile Include="IBaseDAO.cs" />
     <Compile Include="IDAO.cs" />
     <Compile Include="Implement\BBSPostDAO.cs" />
     <Compile Include="Implement\BoardDAO.cs" />

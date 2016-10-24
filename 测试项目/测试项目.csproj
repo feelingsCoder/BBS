@@ -51,6 +51,7 @@
     <None Include="BaseDAO.docx" />
     <None Include="BaseDAO.pdf" />
     <None Include="BBS开发日志.docx" />
+    <None Include="需求规格说明书.docx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entity\Entity.csproj">
